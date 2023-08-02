@@ -1,0 +1,44 @@
+body {
+  background-image: url("yusuf.vide.mp4");
+  background-color: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0px;
+}
+
+h1, h2, h3 {
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+.background-video > video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
